@@ -1,0 +1,142 @@
+<!-- Este es un comentario en HTML -->
+<!DOCTYPE html>
+<!-- html encapsula todo nuestro codigo -lang (idioma) -->
+<html lang="en">
+<!-- head (cabeza) metadata e información del proyecto para el navegador, y conectar otros archivos -->
+<head>
+    <!-- meta: metadata charset="UTF-8" aplica un set de caracteres dependiendo el idioma -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title (titulo) de la pestaña del navegador web -->
+    <title>Locos por el café</title>
+    <!-- favicon (logo de la pestaña) -->
+    <link rel="icon" href="/imagenes/taza-de-cafe.png">
+    <!-- Enlace con hoja de estilo (CSS) -->
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<!-- Sección que SI puede ver e interactua con el usuario -->
+<body>
+    <!-- H1 -encabezado principal -->
+    <h1>AVENTURA CAFETERA POR LA CDMX</h1>
+
+    <!-- NAVEGACIÓN CON ANCLAS // ID -->
+    <div class="menu">
+        <a href="#tipoDeCafe">Tipos de Café</a>
+        <a href="#cafeArabica">Café Arábica</a>
+        <a href="#cafeRobusta">Café Robusta</a>
+        <a href="#tiposCafePreparacion">Tipos de café según su preparación</a>
+        <a href="ubicaciones">Ubicaciones de Cafeterias</a>
+    </div>
+    
+
+    <!-- IMÁGENES -src (sourse/ fuente) me dice donde esta mi imagen // alt (texto alternativo,info extra de la imagen) -->
+    <!-- A taves de la WEB (Pegando link de la dirección de la imagen) -->
+    <div class="container1">
+        <img class= "imgPP" src="https://cdn.businessinsider.es/sites/navi.axelspringer.es/public/media/image/2023/06/tazas-cafe-3060888.jpg" alt="Juego de tazas de cafe">
+        <img class= "imgPP" src="https://media.admagazine.com/photos/618a678a90c4ec9a52ca1157/3:2/w_3000,h_2000,c_limit/68358.jpg" alt="cafe con crossan">
+        <!-- LOCALMENTE -->
+        <img class= "imgPP" src="/imagenes/tazaCafe.jpeg" alt="Foto de una taza de cafe">
+    </div>
+    <br>
+    <br>
+    <!-- LISTAS -ordenadas y no ordenadas -->
+    <!-- LISTAS ORDENADAS (OL) -->
+    <h3>Lugares centricos</h3>
+    <ol>
+        <!-- li (item list/elemento de lista) -->
+        <li>Primer lugar</li>
+        <li>Segundo lugar</li>
+        <!-- ocupe li*10 para agregar el numero de veces que quiero un elemento -->
+        <li>Tercer lugar</li>
+    </ol>
+
+    <!-- LISTA NO ORDENADA -ul (unordered list) -->
+    <h3>TIPOS DE CAFETERÍAS</h3>
+    <ul>
+        <li>Tradicionales</li>
+        <li>De especialidad</li>
+        <li>Temáticas</li>
+        <li>Cafeterías con WI-FI</li>
+    </ul>
+
+<!-- PARRAFOS Y NAVEGACIÓN -->
+    <!-- ATRIBUTOS EN LA ETIQUETA DE APERTURA -->
+    <h3 id="aventura">Aventura cafetera por la CDMX</h3>
+    <!-- (P/elemento parrafo) -->
+    <p>
+        Bienvenido a "Café CDMX", tu guía digital para explorar el vibrante y diverso mundo de las cafeterías en la Ciudad de México. 
+        En esta metrópolis bulliciosa y llena de vida, el café no es solo una bebida, es una experiencia; es el aroma tentador que 
+        te guía por las calles adoquinadas, es el refugio acogedor donde los encuentros se convierten en historias y los momentos 
+        se vuelven memorias.
+        <!-- BR (break/descanso)  -->
+        <br>
+        Únete a nosotros en un viaje sensorial a través de las calles empedradas y los barrios llenos de historia de la Ciudad de México, 
+        donde cada esquina alberga una nueva sorpresa para los amantes del café. Desde las emblemáticas cafeterías enclavadas en edificios 
+        centenarios hasta los acogedores rincones ocultos donde los baristas perfeccionan su arte, te invitamos a descubrir los secretos 
+        detrás de cada taza. Sumérgete en la rica cultura del café mientras exploras nuestra selección curada de las mejores cafeterías 
+        de la ciudad. Desde los tostadores artesanales que hacen magia con granos de todo el mundo hasta los baristas que 
+        convierten cada vertido en una obra maestra, te llevaremos en un viaje para despertar tus sentidos y deleitar 
+        tu paladar.
+        Prepárate para explorar los aromas, sabores y atmósferas únicas que hacen que la escena del café en la Ciudad de 
+        México sea tan especial. Ya sea que estés buscando un lugar tranquilo para trabajar, una cita romántica o 
+        simplemente un buen café para disfrutar en buena compañía, "Café CDMX" te ayudará a encontrar el lugar perfecto 
+        para satisfacer tu sed de café y tu pasión por la cultura local.
+        ¡Únete a nosotros mientras exploramos cada rincón de la Ciudad de México a través de la lente del café!
+    </p>
+
+    <h3 id="tipoDeCafe">Tipos de Café</h3>
+    <div class="container3">
+        <!-- IMAGENES CLICKEABLE -->
+        <!-- a (ancla ancho // elemento para redirigir a otro sitio web o al mismo sitio) -->
+        <!-- href (A donde te redirige) -->
+        <a href="https://www.starbucks.com.mx/">
+            <img class= "imgVideo" src="/imagenes/cafe1.jpeg" alt="">
+        </a>
+        <p>
+            Existen dos tipos principales de café, según la especie de planta de la que provienen los granos:
+        </p>
+        <h4 id="cafeArabica">Café Arábica</h4>
+        <p>
+            Es el tipo de café más popular, conocido por su sabor sueve y complejo. <br>
+            Los granos de arábica son más grandes y ovalados. <br>
+            Se cultivan en altitudes más altas, lo que les da un sabor más rico y ácido.
+        </p>
+        <h4 id="cafeRobusta">Café Robusta</h4>
+        <p>
+            Este tipo de café tiene un sabor más fuerte y amargo. <br>
+            Los granos de robusta son más pequeños y redondos. <br>
+            Se cultivan en altitudes más bajas, lo que les da un sabor más alto contenido de cafeína.
+        </p>
+    </div>
+    
+    <h3 id="tiposCafePreparacion">Tipos de café segun su preparación</h3>
+    <div class="container2">
+        
+        <p>
+        Existen muchos tipos de café que se clasifican según su método de procesamiento, región de cultivo
+        o mezcla de granos. <br>
+        Tipos de café:
+        <br>Expresso: Un café fuerte y concentrado que se prepara forznado agua caliente a través de granos de café finamente molidos
+        <br>Café Americano: Un café elaborado con expresso diluido con agua caliente
+        <br>Café con leche: Un café elaborado con expreso y leche caliente.
+        <br>Latte: Un café elaborado con expresso, leche vaporizada y espuma de leche.
+        <br>Cappuccino: Un café elaborado con expresso, leche vaporizada y una capa de espuma de leche.
+        <br>Café frio: Un café que se prepara remojando café molido en agua fría durante varias horas.
+        <br>Café turco: Un café fuerte y sin filtrar que se prepara hirviendo el café molido finamente en agua.
+        </p>
+        <img class="imgPreparacion" src="https://i.pinimg.com/736x/f5/eb/78/f5eb783ce20c15e3cd3bc0f808826164.jpg" alt="preparacion de un cafe">
+    </div>
+
+    
+    <p>Esta página utiliza iconos de
+        <a href="https://www.flaticon.es/">flaticon</a>
+    </p>
+ 
+    <div class="container">
+        <img class= "logoTaza" src="imagenes/taza-de-cafe.png" alt="icono de una taza de cafe">
+        <p>Este es un texto</p>
+    </div>
+    
+</body>
+</html>

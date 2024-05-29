@@ -1,0 +1,119 @@
+body {
+    /* Color de fondo */
+    /* background-color: #FEFAE0; */
+    background: radial-gradient(#e6d0bc, #bda58e);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 12px;
+    margin: 30px;
+}
+h4 {
+    color: #6F1D1B;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+h3 {
+    /* color del texto */
+    color: #7F5539;
+    font-size: 20px;
+    text-align: left;
+}
+h1 {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    font-size: 50px;
+    text-align: center;
+}
+
+.imgVideo {
+    width: 50%;
+    height: auto;
+}
+img {
+    /*cambiar tamanio de imagenes */
+    /* anchura -pixeles (px) y porcentaje (%) */
+    width: 40%;
+    height: 80%;
+    /* bordes redondeados */
+    border-radius: 20px;
+    display:inline-block;
+    margin-right: 20px;
+}
+.imgPP {
+    /* Ajusta el tamaño de la imagen al contenedor */
+    width: 30%;
+    /* Mantiene la relacion de aspecto de la imagen */
+    height: auto;
+}
+/* Para modificar CSS de un elemento en particular HTML, asignamos una clase (class) y esa la "llamamos" en el CSS con un punto (.) antes de el*/
+.taza1 {
+    width: auto;
+    border-radius: 5px;
+}
+/* Editar div del menú */
+.menu {
+    /* Div flexible para moverse con los elementos */
+    display: flex;
+    /* En columna */
+    flex-direction: column;
+    /* Alinea items de forma centrada */
+    align-items: center;
+    padding: 0;
+}
+
+/* Anclas del menú */
+a {
+    /* Color de texto */
+    color: rgb(94, 94, 89);
+    /* viñetas (- lineas debajo del ancla) */
+    text-decoration: none;
+    font-size: 16px;
+    /* ANCLAS COMO BOTONES */
+    background-color: rgb(212, 194, 154);
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    align-self:flex-start;
+}
+
+a:hover {
+    background-color: #d19444c9;
+    color: white;
+}
+
+.container1 {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1px;
+
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+}
+
+.container3 {
+    display: flex;
+}
+.imgPreparacion {
+    width: 30%;
+    height: 60%;
+    padding: 2%;
+    border-radius: 20%;
+
+}
+.container {
+    background-color: #98C9A3;
+    display: flex;
+    /* align-items: alinea verticalmente */
+    align-items: center;
+}
+
+.logoTaza {
+    width: 6%;
+    /* margin-right (margen de un lado, se ocupo del lado derecho */
+    margin-right: 30px;
+    /* margen del lado derecho de la imagen  */
+    margin-left: 50px;
+}
